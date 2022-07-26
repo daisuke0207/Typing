@@ -8,7 +8,6 @@ namespace Arsene.Typing
 {
     /// <summary>
     /// TypingManager 日本語用
-    /// TODO コンパクト用とBuildを分けなくていいようにする。そのためにMVPで設計
     /// </summary>
     public class TypingManager : MonoBehaviour
     {
