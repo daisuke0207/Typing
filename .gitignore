@@ -71,6 +71,3 @@ crashlytics-build.properties
 /docs
 /**/[Tt]emp/*
 /**/[Tt]emp.meta
-
-# Rider setting files
-/**/.idea/*
