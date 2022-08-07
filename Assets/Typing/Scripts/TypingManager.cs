@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Arsene.Typing.ScriptableObjects;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
@@ -12,7 +13,7 @@ namespace Arsene.Typing
     public class TypingManager : MonoBehaviour
     {
         // タイピングデータ
-        [SerializeField] TypingObject _typingObject;
+        [SerializeField] TypingQuestionObject typingQuestionObject;
         readonly TypingDictionary _typingDictionary = new TypingDictionary();
 
         // データを保持するリスト
@@ -119,8 +120,8 @@ namespace Arsene.Typing
         void Initialize()
         {
             // テキストデータをリストに入れる
-            _fList.AddRange(_typingObject.fTextAsset.text.Split('\n'));
-            _qList.AddRange(_typingObject.qTextAsset.text.Split('\n'));
+            _fList.AddRange(typingQuestionObject.fTextAsset.text.Split('\n'));
+            _qList.AddRange(typingQuestionObject.qTextAsset.text.Split('\n'));
 
             if (!_isVisiableFurigana) _fText.gameObject.SetActive(false);
         }
@@ -191,7 +192,7 @@ namespace Arsene.Typing
             for (int i = 0; i < strF.Length; i++)
             {
                 bool isPrevAndCurPair = false;
-                string sliceRom = _typingDictionary.dic[strF[i].ToString()][0];
+                string sliceRom = _typingDictionary.Dic[strF[i].ToString()][0];
                 // 捨て仮名時の処理（ぁ、ぃ、ぅ、ぇ、ぉ、ゃ、ゅ、ょ）
                 bool isSmallKana = "ぁぃぅぇぉゃゅょっ".IndexOf(strF[i]) >= 0;
                 if (isSmallKana)
@@ -204,18 +205,18 @@ namespace Arsene.Typing
                         if (!isVowel)
                         {
                             // 次の回答の1番目のローマ字を追加する
-                            sliceRom = _typingDictionary.dic[strF[i + 1].ToString()][0][0].ToString();
+                            sliceRom = _typingDictionary.Dic[strF[i + 1].ToString()][0][0].ToString();
                         }
                     }
                     else
                     {
                         // 前の文字と一緒に辞書から一致するローマ字を探す
                         string prevAndCurStr = strF[i - 1].ToString() + strF[i].ToString();
-                        if (_typingDictionary.dic.ContainsKey(prevAndCurStr))
+                        if (_typingDictionary.Dic.ContainsKey(prevAndCurStr))
                         {
                             // 前の文字のローマ字を削除 かつ 融合された組み合わせを入れる
                             sliceRomList.RemoveAt(sliceRomList.Count - 1);
-                            sliceRom = _typingDictionary.dic[prevAndCurStr][0];
+                            sliceRom = _typingDictionary.Dic[prevAndCurStr][0];
                             isPrevAndCurPair = true;
                         }
                     }
@@ -224,7 +225,7 @@ namespace Arsene.Typing
                 {
                     // 「ん」の後ろが母音、ナ行、ヤ行、にゃ、にぃ、にゅ、にぇ、にょのときと「ん」が文末のときは省略できない。
                     List<char> cannotSkipList = new List<char> { 'a', 'i', 'u', 'e', 'o', 'y', 'n' };
-                    if (strF.Length > i + 1 && !cannotSkipList.Contains(_typingDictionary.dic[strF[i + 1].ToString()][0][0]))
+                    if (strF.Length > i + 1 && !cannotSkipList.Contains(_typingDictionary.Dic[strF[i + 1].ToString()][0][0]))
                     {
                         sliceRom = "n";
                     }
@@ -257,9 +258,9 @@ namespace Arsene.Typing
         {
             bool existsFlexible = false;
 
-            if (_typingDictionary.dic.ContainsKey(curSliceF))
+            if (_typingDictionary.Dic.ContainsKey(curSliceF))
             {
-                List<string> romFlexibleList = _typingDictionary.dic[curSliceF];
+                List<string> romFlexibleList = _typingDictionary.Dic[curSliceF];
                 for (int i = 0; i < romFlexibleList.Count; i++)
                 {
                     string rom = romFlexibleList[i];
@@ -334,7 +335,7 @@ namespace Arsene.Typing
             if (_curF.Length < nextRomIndex + 1) return;
 
             string nextChar = _curF[nextRomIndex].ToString();
-            string nextARom = _typingDictionary.dic[nextChar][0];
+            string nextARom = _typingDictionary.Dic[nextChar][0];
 
             // aの0番目がx,l以外であれば処理をしない
             if (nextARom[0] != 'x' && nextARom[0] != 'l') return;

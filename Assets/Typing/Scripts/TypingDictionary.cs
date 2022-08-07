@@ -3,12 +3,12 @@ using System.Collections.Generic;
 namespace Arsene.Typing
 {
     /// <summary>
-    /// TypingDictionary
+    /// 日本語と英字のの対応表
     /// </summary>
     public class TypingDictionary
     {
         // NOTE: Google日本語入力の対応にする
-        public Dictionary<string, List<string>> dic = new Dictionary<string, List<string>>() {
+        public readonly Dictionary<string, List<string>> Dic = new Dictionary<string, List<string>>() {
             {"あ", new List<string>{"a"}},{"い", new List<string>{"i"}},{"う", new List<string>{"u", "wu"}},
             {"え", new List<string>{"e"}},{"お", new List<string>{"o"}},
             {"か", new List<string>{"ka","ca"}},{"き", new List<string>{"ki"}},{"く", new List<string>{"ku","cu","qu"}},
