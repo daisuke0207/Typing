@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d77f534-e432-46c0-ba93-8ccf268a830a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/DOCUMENTATION.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/DOCUMENTATION.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor Resources/Icons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor Resources/Icons/icon_branch_I.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor Resources/Icons/icon_branch_I.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor Resources/Icons/icon_branch_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor Resources/Icons/icon_branch_L.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor Resources/Icons/icon_branch_T.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor Resources/Icons/icon_branch_T.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor/Hierarchy2.Editor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor/Hierarchy2.Editor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor/HierarchyEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor/HierarchyEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor/HierarchyFolderEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor/HierarchyFolderEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor/HierarchyResources.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor/HierarchyResources.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor/HierarchySettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor/HierarchySettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor/InstantInspector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor/InstantInspector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor/Resources.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor/Resources.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor/SceneRenamePopup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor/SceneRenamePopup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor/SelectionsRenamePopup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor/SelectionsRenamePopup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor/Settings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Editor/Settings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Runtime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Runtime/Hierarchy2.Runtime.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Runtime/Hierarchy2.Runtime.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Runtime/HierarchyFolder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Runtime/HierarchyFolder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Runtime/Texture2DExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Runtime/Texture2DExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Runtime/UIElements.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Runtime/UIElements.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Runtime/VisualElementExstensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hierarchy 2/Runtime/VisualElementExstensions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Typing/Scripts/RootEntryPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Typing/Scripts/RootEntryPoint.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CusSLmLwFDTEH6VFCVprNHlsYH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d77f534-e432-46c0-ba93-8ccf268a830a" name="Changes" comment="" />
+      <created>1659663805508</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659663805508</updated>
+      <workItem from="1659663817679" duration="511000" />
+      <workItem from="1659742801504" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
