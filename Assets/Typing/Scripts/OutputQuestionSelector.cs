@@ -5,7 +5,7 @@ namespace Arsene.Typing
     {
         private readonly TypingQuestionList _questionList;
 
-        public TypingQuestion Random()
+        public TypingQuestion GetRandom()
         {
             // 問題の選択
             var index = UnityEngine.Random.Range(0, _questionList.Count() - 1);
