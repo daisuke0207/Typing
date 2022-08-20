@@ -7,6 +7,13 @@
       "dependencies": {},
       "hash": "27604496ca1b27b93d78dd2257a50158fab2bc33"
     },
+    "com.jetbrains.riderflow": {
+      "version": "2022.1.2-205",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://npm.pkg.jetbrains.space/public/p/jetbrains-gamedev/jetbrains-gamedev"
+    },
     "com.unity.burst": {
       "version": "1.6.6",
       "depth": 1,

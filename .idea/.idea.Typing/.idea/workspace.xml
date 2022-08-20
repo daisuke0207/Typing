@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fddb694d-e0bd-4762-a48c-64964f49232e" name="Changes" comment="" />
+    <list default="true" id="fddb694d-e0bd-4762-a48c-64964f49232e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +31,7 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/mayuzumidaisuke/container/development/Typing/Assets/Typing/Scripts/OutputQuestionSelector.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/mayuzumidaisuke/container/development/Typing/Assets/Typing/Scripts/OutputQuestionSelector.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/mayuzumidaisuke/container/development/Typing/Assets/Typing/Scripts/TypingView.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -145,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659874307159</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="change method name">
+      <created>1659998005940</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659998005940</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +211,8 @@
     <MESSAGE value="install hierarchy2 plugin and fix setting" />
     <MESSAGE value="update settings" />
     <MESSAGE value="refactoring typing class" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring typing class" />
+    <MESSAGE value="change method name" />
+    <option name="LAST_COMMIT_MESSAGE" value="change method name" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

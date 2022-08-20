@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Typing/Typing.unity
+    path: Assets/Typing/Scenes/Typing.unity
     guid: d6578b4f27b79466597ca59af5671a44
   - enabled: 1
     path: Assets/Typing/Debug/Debug.unity
